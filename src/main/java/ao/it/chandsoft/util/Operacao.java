@@ -12,7 +12,7 @@ public enum Operacao {
     private String parametro1;
     private String parametro2;
     private String sinalDeOperacao;
-
+    
     private Operacao(String parametro1, String parametro2, String sinalDeOperacao) {
         this.parametro1 = parametro1;
         this.parametro2 = parametro2;
